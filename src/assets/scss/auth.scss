@@ -1,0 +1,61 @@
+.auth {
+  flex: 1 1 100%;
+  display: flex;
+
+  &__container {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__body {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    display: flex;
+    position: relative;
+
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0 5px;
+      transform: translateY(-7px) translateX(5px);
+      font-size: 12px;
+      color: $light-mid-grey;
+      background-color: $white;
+    }
+  }
+
+  &__title {
+    color: $black;
+    font-size: 24px;
+  }
+
+  &__subtitle {
+    align-self: flex-end;
+    color: $mid-grey;
+  }
+
+  &__input {
+  }
+
+  &__button {
+  }
+
+  &__redirect {
+    font-size: 12px;
+    color: $light-mid-grey;
+  }
+  a, a:visited {color: $mid-grey;}
+}

@@ -1,0 +1,21 @@
+/** colors */
+$white: #fff;
+$light-grey: #dfe3e6;
+$light-mid-grey: #b8bfc5;
+$mid-grey: #768694;
+$dark-grey: #5f6264;
+$black: #0a0a0b;
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  color: $light-grey;
+  background-color: $black;
+}
+
+.inpt {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $light-mid-grey;
+  border-radius: 5px;
+}
